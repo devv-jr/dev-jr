@@ -22,7 +22,7 @@ export default function Projects() {
             <div className="project-item bg-card p-6 rounded-lg shadow-md">
                 <h3 className="text-primary font-semibold mb-2">{t('projects.project1.title')}</h3>
                 <Image 
-                    src="/gainzimage1.jpg" 
+                    src="/dev-jr/gainzimage1.jpg" 
                     alt={t('projects.project1.title')} 
                     width={300} 
                     height={200} 
@@ -34,7 +34,7 @@ export default function Projects() {
             <div className="project-item bg-card p-6 rounded-lg shadow-md">
                 <h3 className="text-primary font-semibold mb-2">{t('projects.project2.title')}</h3>
                 <Image 
-                    src="/onklydemoimage.jpg" 
+                    src="/dev-jr/onklydemoimage.jpg" 
                     alt={t('projects.project2.title')} 
                     width={300} 
                     height={200} 
@@ -45,7 +45,7 @@ export default function Projects() {
             <div className="project-item bg-card p-6 rounded-lg shadow-md">
                 <h3 className="text-primary font-semibold mb-2">{t('projects.project3.title')}</h3>
                 <Image 
-                    src="/lauraimage.jpg" 
+                    src="/dev-jr/lauraimage.jpg" 
                     alt={t('projects.project3.title')} 
                     width={300} 
                     height={200} 

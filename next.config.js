@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/dev-jr' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/dev-jr/' : '',
+  // Reemplaza 'tu-repo-name' con el nombre real de tu repositorio
+  basePath: '/dev-jr',
+  assetPrefix: '/dev-jr',
 }
 
 module.exports = nextConfig

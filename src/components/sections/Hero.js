@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from '../../hooks/useTranslations';
+import Link from 'next/link';
 
 export default function Hero() {
   const { t } = useTranslations();
@@ -43,12 +44,12 @@ export default function Hero() {
             >
               {t('hero.cta.projects')}
             </a>
-            <a 
-              href="/contact" 
-              className="btn btn-secondary px-8 py-3 text-base font-medium min-w-[160px]"
-            >
-              {t('hero.cta.contact')}
-            </a>
+          <Link 
+            href="/contact" 
+            className="btn btn-secondary px-8 py-3 text-base font-medium min-w-[160px]"
+          >
+            {t('hero.cta.contact')}
+          </Link>
           </div>
         </div>
       </div>
