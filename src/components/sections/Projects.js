@@ -5,11 +5,14 @@ import { useRef, useEffect } from 'react';
 import { useTranslations } from '../../hooks/useTranslations';
 import Reveal from '../ui/Reveal';
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const withBasePath = (path) => `${BASE_PATH}${path}`;
+
 const PROJECT_IMAGES = [
-  '/gainz_cover.png',
-  '/arkyne_guard_cover.png',
-  '/arkyn_cover.png',
-  '/onkly_cover.png',
+  withBasePath('/gainz_cover.png'),
+  withBasePath('/arkyne_guard_cover.png'),
+  withBasePath('/arkyn_cover.png'),
+  withBasePath('/onkly_cover.png'),
 ];
 
 const TAG_COLORS = {
