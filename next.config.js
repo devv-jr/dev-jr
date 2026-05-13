@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  reactCompiler: true,
   // Reemplaza 'tu-repo-name' con el nombre real de tu repositorio
   basePath,
   assetPrefix: basePath,
