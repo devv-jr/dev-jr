@@ -1,0 +1,34 @@
+{
+  "name": "dev-jr",
+  "version": "0.1.0",
+  "homepage": "https://devv-jr.github.io/dev-jr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devv-jr/dev-jr.git"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "rm -rf out && next build && touch out/.nojekyll",
+    "deploy": "npm run predeploy && gh-pages -d out --dotfiles",
+    "deploy-clean": "gh-pages-clean && npm run deploy"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "simple-icons": "^16.18.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4"
+  }
+}
