@@ -17,16 +17,16 @@
     "deploy-clean": "gh-pages-clean && npm run deploy"
   },
   "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.6",
-    "react-dom": "19.2.6",
+    "next": "15.4.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "simple-icons": "^16.18.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
+    "eslint": "^8",
+    "eslint-config-next": "15.4.4",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "@tailwindcss/postcss": "^4"
